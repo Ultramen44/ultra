@@ -1,9 +1,9 @@
 #!/bin/bash
 MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
-DOMAIN=zerooostore.my.id
+DOMAIN=ultramen.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-dns=${sub}.zerooostore.my.id
+dns=${sub}.ultramen.my.id
 CF_ID=didit.pamuji@gmail.com
 CF_KEY=fe7fd9817a73cc64c4422233a8a5d6fd7ca9c
 set -euo pipefail
