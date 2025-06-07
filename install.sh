@@ -330,7 +330,7 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>─────────────────────────────</code>
-<b> ILHAM GANTENG VPN SCRIPT  </b>
+<b> WONG NDEZO AUTO SCRIPT  </b>
 <code>─────────────────────────────</code>
 <i>Automatic Notifications From Github</i>
 "'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/Ultramenstore"}]]}' 
