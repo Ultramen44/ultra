@@ -312,7 +312,7 @@ sts="${Error}"
 fi
 TIMES="10"
 CHATID="7369861957"
-KEY="7758531697:AAGU03iyd11ib8V6y1kbE0hkpkk9Widm64I"
+KEY="7201346149:AAEZe5N0YSDBKd9DfzdQ_kCHUZFnCOwRdm0"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /root/.isp)
 IP=$(curl -sS ipv4.icanhazip.com)
