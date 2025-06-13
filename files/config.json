@@ -10,6 +10,6 @@
 	"ssl_version": "AUTO",
 	"conn_timeout": 30,
 	"dns_resolver": "/etc/resolv.conf",
-	"http_ok": "HTTP/1.1 101 <b><i><font color="green">WONG NDEZO[crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]"
+	"http_ok": "HTTP/1.1 101 <b><i><font color="green">WONG NDEZO [crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]"
 }
 
