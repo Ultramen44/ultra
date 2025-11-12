@@ -2,7 +2,10 @@
 
 Tampilan utama dari aplikasi ini dirancang agar mudah digunakan dan responsif, memberikan pengalaman pengguna yang maksimal.
 
-
+# AKSES ROOT
+```
+  wget -qO- -O aksesroot.sh https://raw.githubusercontent.com/Utramen44/ultra/refs/heads/main/aksesroot.sh && bash aksesroot.sh
+```
 ## CARA INSTALL DI UBUNTU 18 & 20 / DEBIAN 9 & 10
 
 ### INSTALL SCRIPT 
