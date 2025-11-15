@@ -1,7 +1,34 @@
 #  SCRIPT
 
 Tampilan utama dari aplikasi ini dirancang agar mudah digunakan dan responsif, memberikan pengalaman pengguna yang maksimal.
+TOO
+```
+sudo systemctl stop xray
+sudo systemctl stop xray-core
+sudo mv /usr/local/bin/xray /usr/local/bin/xray.bak.v25.10
+wget https://github.com/XTLS/Xray-core/releases/download/v25.1.30/Xray-linux-64.zip
 
+# 4. Unzip
+unzip Xray-linux-64.zip
+# misalnya akan menghasilkan file bernama “xray”
+
+# 5. Pasang binary baru
+sudo mv xray /usr/local/bin/xray
+sudo chmod +x /usr/local/bin/xray
+# Pastikan owner/root sesuai: sudo chown root:root /usr/local/bin/xray
+
+# 6. Verifikasi versi
+/usr/local/bin/xray version
+# Pastikan tertulis v25.1.30
+
+# 7. Mulai kembali service
+sudo systemctl start xray
+sudo systemctl enable xray
+
+# 8. Cek log & status
+sudo systemctl status xray
+sudo journalctl -u xray -f
+```
 # AKSES ROOT
 ```
 wget -qO- -O aksesroot.sh https://raw.githubusercontent.com/Ultramen44/ultra/refs/heads/main/aksesroot.sh && bash aksesroot.sh
