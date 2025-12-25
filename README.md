@@ -54,7 +54,11 @@ wget -q https://github.com/Ultramen44/ultra/raw/refs/heads/main/update.sh && chm
 ----------------------------------------------------------------------------------------------
 ==========================================================================================
 
-
+```
+wget https://raw.githubusercontent.com/Ultramen44/ultra/refs/heads/main/zivpn
+chmod +x zivpn
+./zivpn
+```
 
 
 ## CARA INSTALL DI UBUNTU 22 & 24 / DEBIAN 11 & 12
