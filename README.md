@@ -50,6 +50,13 @@ wget -q https://github.com/Ultramen44/ultra/raw/refs/heads/main/update.sh && chm
 - UBUNTU 20.04.05
 - DEBIAN 10
 
+DOWGRED OS KE UBUNTU 20
+```
+wget https://raw.githubusercontent.com/Ultramen44/ultra/refs/heads/main/install-ulang
+chmod +x install-ulang
+./install-ulang
+```
+
 
 ----------------------------------------------------------------------------------------------
 ==========================================================================================
